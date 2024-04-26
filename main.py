@@ -4,7 +4,7 @@ FONT = ("Arial", 12, "normal")
 
 
 def miles_to_kms():
-    miles = int(mile_entry.get())
+    miles = float(mile_entry.get())
     kilometers = round(miles * 1.609344, 3)
     kilometers_answer["text"] = kilometers
 
