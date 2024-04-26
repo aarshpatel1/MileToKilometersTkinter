@@ -3,7 +3,7 @@ from tkinter import *
 FONT = ("Arial", 12, "normal")
 
 
-def miles_to_km():
+def miles_to_kms():
     miles = int(mile_entry.get())
     kilometers = round(miles * 1.609344, 3)
     kilometers_answer["text"] = kilometers
@@ -33,7 +33,7 @@ kilometers_label = Label(text="Kilometers", font=FONT)
 kilometers_label.grid(column=2, row=1)
 kilometers_label.config(padx=10, pady=10)
 
-calculate_button = Button(text="Calculate", font=FONT, command=miles_to_km)
+calculate_button = Button(text="Calculate", font=FONT, command=miles_to_kms)
 calculate_button.grid(column=1, row=2)
 calculate_button.config(padx=5, pady=5)
 
