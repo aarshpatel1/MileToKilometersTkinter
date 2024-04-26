@@ -28,6 +28,6 @@ new_button.grid(column=2, row=0)
 
 # Entry class
 entry = tkinter.Entry(width=15)
-label.grid(column=3, row=4)
+entry.grid(column=3, row=4)
 
 window.mainloop()
